@@ -1,4 +1,4 @@
-DN,objectClass,sAMAccountName,cn,userPrincipalName,givenName,sn,userAccountControl,grouptype,member
+DN,objectClass,sAMAccountName,cn,userPrincipalName,givenName,sn,userAccountControl,groupType,member
 "CN=Accounting User 1,CN=Users,DC=widgetllc,DC=internal",user,accounting.user.1,Accounting User 1,accounting.user.1@widgetllc.internal,Accounting,User 1,514,,
 "CN=Accounting User 2,CN=Users,DC=widgetllc,DC=internal",user,accounting.user.2,Accounting User 2,accounting.user.2@widgetllc.internal,Accounting,User 2,514,,
 "CN=Executive User 1,CN=Users,DC=widgetllc,DC=internal",user,executive.user.1,Executive User 1,executive.user.1@widgetllc.internal,Executive,User 1,514,,
@@ -11,9 +11,9 @@ DN,objectClass,sAMAccountName,cn,userPrincipalName,givenName,sn,userAccountContr
 "CN=Executive02,CN=Computers,DC=widgetllc,DC=internal",computer,Executive02$,Executive02,,,,,,
 "CN=Operations01,CN=Computers,DC=widgetllc,DC=internal",computer,Operations01$,Operations01,,,,,,
 "CN=Operations02,CN=Computers,DC=widgetllc,DC=internal",computer,Operations02$,Operations02,,,,,,
-"CN=Accounting Users,CN=Users,DC=widgetllc,DC=internal",group,,Accounting Users,,,,,-2147483646,
-"CN=Accounting Computers,CN=Users,DC=widgetllc,DC=internal",group,,Accounting Computers,,,,,-2147483646,
-"CN=Executive Users,CN=Users,DC=widgetllc,DC=internal",group,,Executive Users,,,,,-2147483646,
-"CN=Executive Computers,CN=Users,DC=widgetllc,DC=internal",group,,Executive Computers,,,,,-2147483646,
-"CN=Operations Users,CN=Users,DC=widgetllc,DC=internal",group,,Operations Users,,,,,-2147483646,
-"CN=Operations Computers,CN=Users,DC=widgetllc,DC=internal",group,,Operations Computers,,,,,-2147483646,
+"CN=Accounting Users,CN=Users,DC=widgetllc,DC=internal",group,Accounting Users,Accounting Users,,,,,-2147483646,
+"CN=Accounting Computers,CN=Users,DC=widgetllc,DC=internal",group,Accounting Computers,Accounting Computers,,,,,-2147483646,
+"CN=Executive Users,CN=Users,DC=widgetllc,DC=internal",group,Executive Users,Executive Users,,,,,-2147483646,
+"CN=Executive Computers,CN=Users,DC=widgetllc,DC=internal",group,Executive Computers,Executive Computers,,,,,-2147483646,
+"CN=Operations Users,CN=Users,DC=widgetllc,DC=internal",group,Operations Users,Operations Users,,,,,-2147483646,
+"CN=Operations Computers,CN=Users,DC=widgetllc,DC=internal",group,Operations Computers,Operations Computers,,,,,-2147483646,
